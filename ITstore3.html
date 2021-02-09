@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<style>
+    body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/18/15/03/burger-1835192_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color:  rgb(255, 123, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+</style>
+<ul>
+    <li><a class="active" href="ITstore.html">Home</a></li>
+    <li><a href="ITstore2.html">Menu</a></li>
+    <li><a href="ITstore3.html">Order Here</a></li>
+  </ul>
+
+  <h2>Order Page</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <label for="phone">phone number:</label><br>
+  <input type="text" id="phone" value="(216)987-4878"><br>
+  <label for="Address">Address:</label><br>
+  <input type="text" id="Address" value="1454 Campus Drive"><br>  
+  <label for="Donut Stacker">Donut Stacker:</label><br>
+  <input type="number" id="Donut Stacker" name="Donut Stacker" value="0"><br><br>
+  <label for="Lamb Burger">Lamb Burger:</label><br>
+  <input type="number" id="Lamb Burger" name="Lamb Burger" value="0"><br><br>
+  <label for="Morning Burger">Morning Burger:</label><br>
+  <input type="number" id="Morning Burger" name="Morning  Burger" value="0"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+</body>
